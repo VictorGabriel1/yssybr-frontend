@@ -1,6 +1,6 @@
 # Monitor de Processos em Tempo Real com Socket.IO - Frontend Next.js
 
-Este projeto de frontend [Next.js](https://nextjs.org/docs) se conecta ao servidor Socket.io via [Socket.IO Client](https://socket.io/docs/v4/client-api/) para exibir informações em tempo real sobre os processos iniciados e encerrados. Utiliza a biblioteca ps-list para obter informações sobre os processos, no back-end já criado, disponível em outro dos meus repositórios([yssysbr-backend](https://github.com/VictorGabriel1/yssys-backend)).
+Este projeto de frontend [Next.js](https://nextjs.org/docs) se conecta ao servidor Socket.io via [Socket.IO Client](https://socket.io/docs/v4/client-api/) para exibir informações em tempo real sobre os processos iniciados e encerrados. Utiliza a biblioteca ps-list para obter informações sobre os processos, no back-end já criado, disponível em outro dos meus repositórios([yssysbr-backend](https://github.com/VictorGabriel1/yssybr-backend)).
 
 ## Como Rodar o Projeto
 
@@ -33,7 +33,7 @@ Este projeto de frontend [Next.js](https://nextjs.org/docs) se conecta ao servid
    O servidor estará disponível na porta padrão do Next.js (geralmente 3000).
 
 3. **Execução do Servidor Socket.IO:**
-   Vá até o repostório [yssysbr-backend](https://github.com/VictorGabriel1/yssys-backend), e siga as instruções de como rodar.
+   Vá até o repostório [yssysbr-backend](https://github.com/VictorGabriel1/yssybr-backend), e siga as instruções de como rodar.
 
 ## Página Principal (src/app/page.tsx)
 
@@ -160,7 +160,7 @@ export default function ProcessesTable({ type }: ProcessTableProps) {
 
 # Real-Time Process Monitor with Socket.IO - Next.js Frontend
 
-This Next.js frontend project connects to the Socket.IO server via [Socket.IO Client](https://socket.io/docs/v4/client-api/) to display real-time information about started and ended processes. It utilizes the [ps-list](https://www.npmjs.com/package/ps-list) library to obtain process information from the backend server, which is available in another of my repositories ([yssysbr-backend](https://github.com/VictorGabriel1/yssys-backend)).
+This Next.js frontend project connects to the Socket.IO server via [Socket.IO Client](https://socket.io/docs/v4/client-api/) to display real-time information about started and ended processes. It utilizes the [ps-list](https://www.npmjs.com/package/ps-list) library to obtain process information from the backend server, which is available in another of my repositories ([yssysbr-backend](https://github.com/VictorGabriel1/yssybr-backend)).
 
 ## How to Run the Project
 
@@ -193,7 +193,7 @@ This Next.js frontend project connects to the Socket.IO server via [Socket.IO Cl
    The server will be available on the default Next.js port (usually 3000).
 
 3. **Socket.IO Server Execution:**
-   Go to the [yssysbr-backend](https://github.com/VictorGabriel1/yssys-backend) repository and follow the instructions on how to run.
+   Go to the [yssysbr-backend](https://github.com/VictorGabriel1/yssybr-backend) repository and follow the instructions on how to run.
 
 ## Main Page (src/app/page.tsx)
 
